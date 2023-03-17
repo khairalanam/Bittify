@@ -9,3 +9,45 @@
 html {
   font-family: "Nunito Sans", sans-serif;
 }
+
+.App {
+  background-color: black;
+}
+
+.navbar {
+  border: 1px red solid;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+  padding: 2em 5em;
+
+  .logo-main {
+    border: 1px blue solid;
+    display: flex;
+    gap: 1em;
+    width: fit-content;
+
+    .logo {
+      width: 2em;
+    }
+
+    .logo-text {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 700;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .nav-ul {
+    display: flex;
+    width: fit-content;
+    border: 1px green solid;
+    list-style-type: none;
+    color: white;
+    font-weight: 500;
+    gap: 2.5em;
+  }
+}
