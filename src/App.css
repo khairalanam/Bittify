@@ -9,8 +9,10 @@ html {
   font-family: "Nunito Sans", sans-serif;
 }
 
-body {
+body,
+.App {
   background-color: #010411;
+  color: white;
 }
 
 .navbar {
@@ -58,6 +60,9 @@ body {
 
 .hero-section {
   background: url(./assets/BG.svg);
+  background-position: 0% 125%;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -86,4 +91,28 @@ body {
 
 .learn-more {
   font-weight: 600;
+}
+
+.exchange-section {
+  padding: 5em;
+}
+.exchange-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5em;
+}
+.exchange-section .exchange-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.exchange-section .exchange-ul li {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.exchange-section .exchange-ul .ul-icon {
+  font-size: 2.5rem;
 }/*# sourceMappingURL=App.css.map */
