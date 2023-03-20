@@ -10,12 +10,11 @@ html {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.App {
-  background: url(./assets/BG.svg);
+body {
+  background-color: #010411;
 }
 
 .navbar {
-  border: 1px red solid;
   display: flex;
   justify-content: space-between;
   gap: 2em;
@@ -23,7 +22,6 @@ html {
   padding: 2em 5em;
 
   .logo-main {
-    border: 1px blue solid;
     display: flex;
     gap: 1em;
     width: fit-content;
@@ -44,20 +42,54 @@ html {
   .nav-ul {
     display: flex;
     width: fit-content;
-    border: 1px green solid;
     list-style-type: none;
     color: white;
     font-weight: 500;
     gap: 2.5em;
   }
+}
 
-  .register-button {
-    color: white;
-    font-weight: 400;
-    padding: 1rem 3rem;
-    background-color: #f72585;
-    box-shadow: 0px 0px 50px #f72585;
-    border-radius: 1.5rem;
-    font-weight: 700;
+.register-button {
+  color: white;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  background-color: #f72585;
+  box-shadow: 0px 0px 50px #f72585;
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-section {
+  background: url(./assets/BG.svg);
+  height: 100vh;
+}
+
+.main-section {
+  padding: 0 5em;
+  padding-top: 6em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bolder;
   }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 1em;
+    align-items: center;
+  }
+}
+
+.learn-more {
+  font-weight: 600;
 }
