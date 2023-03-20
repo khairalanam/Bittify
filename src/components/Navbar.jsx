@@ -5,10 +5,12 @@ import Logo from "../../public/Logo.svg";
 const Navbar = () => {
   return (
     <motion.nav className="navbar">
-      <div className="logo-main">
-        <img src={Logo} alt="Logo" className="logo" />
-        <h1 className="logo-text">Bittify</h1>
-      </div>
+      <a href="/">
+        <div className="logo-main">
+          <img src={Logo} alt="Logo" className="logo" />
+          <h1 className="logo-text">Bittify</h1>
+        </div>
+      </a>
       <motion.ul className="nav-ul">
         <li>
           <motion.a href="">Home</motion.a>
