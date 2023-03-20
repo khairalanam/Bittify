@@ -10,7 +10,7 @@ html {
 }
 
 .App {
-  background-color: black;
+  background: url(./assets/BG.svg);
 }
 
 .navbar {
@@ -47,4 +47,13 @@ html {
   color: white;
   font-weight: 500;
   gap: 2.5em;
+}
+.navbar .register-button {
+  color: white;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  background-color: #f72585;
+  box-shadow: 0px 0px 50px #f72585;
+  border-radius: 1.5rem;
+  font-weight: 700;
 }/*# sourceMappingURL=App.css.map */
